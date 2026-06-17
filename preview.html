@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selvaganapathi P | IT Help Desk & Infrastructure</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#2563eb);
+color:white;
+padding:100px 10%;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header h2{
+font-weight:400;
+margin-bottom:20px;
+}
+
+header p{
+max-width:800px;
+margin:auto;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 25px;
+background:#fff;
+color:#2563eb;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+}
+
+nav{
+position:sticky;
+top:0;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+z-index:1000;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+flex-wrap:wrap;
+}
+
+nav ul li{
+margin:15px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:40px;
+color:#2563eb;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+.timeline{
+display:grid;
+gap:20px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+}
+
+.skill{
+background:#2563eb;
+color:white;
+padding:10px 18px;
+border-radius:30px;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.portfolio-item{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#2563eb;
+text-decoration:none;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:24px;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:2rem;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header id="home">
+<h1>Selvaganapathi P</h1>
+<h2>IT Help Desk | Networking | Infrastructure Support</h2>
+
+<p>
+Providing professional IT support for desktops, laptops, printers,
+Windows systems, networking, and infrastructure maintenance.
+Dedicated to ensuring smooth and secure IT operations for organizations and individuals.
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+</header>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<div class="card">
+<h3>Professional Summary</h3>
+<br>
+<p>
+Dedicated and detail-oriented IT professional with experience in system administration,
+technical support, and IT infrastructure maintenance. Skilled in troubleshooting
+hardware, software, and network issues while ensuring smooth IT operations.
+</p>
+</div>
+
+<div class="card">
+<h3>Education</h3>
+<br>
+<p><b>BCA</b><br>
+Shree Nehru Maha Vidyalaya College of Arts and Science, Coimbatore</p>
+<br>
+
+<p><b>12th Standard</b><br>
+Government Higher Secondary School, Chettipalayam</p>
+<br>
+
+<p><b>10th Standard</b><br>
+Government Higher Secondary School, Chettipalayam</p>
+
+</div>
+
+</div>
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Desktop & Laptop Support</h3>
+<p>Installation, maintenance, troubleshooting and optimization.</p>
+</div>
+
+<div class="service-card">
+<h3>Windows Administration</h3>
+<p>Windows installation, updates, drivers and configuration.</p>
+</div>
+
+<div class="service-card">
+<h3>Networking</h3>
+<p>LAN, Wi-Fi setup, troubleshooting and support.</p>
+</div>
+
+<div class="service-card">
+<h3>Printer Support</h3>
+<p>Printer installation, driver setup and maintenance.</p>
+</div>
+
+<div class="service-card">
+<h3>Remote Technical Support</h3>
+<p>Remote troubleshooting and user assistance.</p>
+</div>
+
+<div class="service-card">
+<h3>IT Asset Management</h3>
+<p>Asset tracking, inventory and documentation support.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="timeline">
+
+<div class="card">
+<h3>Technical Support Staff</h3>
+<p><b>Coimbatore Institute of Technology</b></p>
+<p>March 2025 - Present</p>
+<ul>
+<li>Maintain computer laboratory systems</li>
+<li>Provide technical support</li>
+<li>Troubleshoot hardware and software issues</li>
+<li>Support students and faculty</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Junior System Administrator</h3>
+<p><b>Messer Cutting Systems India Pvt. Ltd.</b></p>
+<ul>
+<li>End-user technical support</li>
+<li>Windows administration</li>
+<li>Hardware maintenance</li>
+<li>Network troubleshooting</li>
+</ul>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills & Certifications</h2>
+
+<div class="skills">
+
+<span class="skill">Technical Support</span>
+<span class="skill">Windows Administration</span>
+<span class="skill">Hardware & Networking</span>
+<span class="skill">Linux Fundamentals</span>
+<span class="skill">Active Directory</span>
+<span class="skill">Network Security</span>
+<span class="skill">Cyber Security</span>
+<span class="skill">System Administration</span>
+<span class="skill">TryHackMe</span>
+<span class="skill">IT Asset Management</span>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2 class="section-title">Portfolio</h2>
+
+<div class="portfolio-grid">
+
+<div class="portfolio-item">
+<h3>IT Infrastructure Support</h3>
+<p>Managed desktops, laptops, printers and network devices.</p>
+</div>
+
+<div class="portfolio-item">
+<h3>Windows Administration</h3>
+<p>Installed, configured and maintained Windows systems.</p>
+</div>
+
+<div class="portfolio-item">
+<h3>Network Troubleshooting</h3>
+<p>Resolved LAN, Wi-Fi and connectivity issues.</p>
+</div>
+
+<div class="portfolio-item">
+<h3>Computer Lab Management</h3>
+<p>Maintained computer lab infrastructure and operations.</p>
+</div>
+
+<div class="portfolio-item">
+<h3>Help Desk Support</h3>
+<p>Provided technical assistance and incident resolution.</p>
+</div>
+
+<div class="portfolio-item">
+<h3>Cyber Security Learning</h3>
+<p>TryHackMe labs, Linux, Nmap, DNS and network security fundamentals.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="card contact">
+
+<h3>Let's Work Together</h3>
+
+<br>
+
+<p>Email:</p>
+<p>
+<a href="mailto:sagisagi008@gmail.com">
+sagisagi008@gmail.com
+</a>
+</p>
+
+<br>
+
+<p>Phone / WhatsApp:</p>
+<p>
+<a href="tel:+918300910473">
++91 8300910473
+</a>
+</p>
+
+<br>
+
+<a class="btn"
+href="https://wa.me/918300910473"
+target="_blank">
+WhatsApp Me
+</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Selvaganapathi P | IT Help Desk & Infrastructure Services</p>
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/918300910473"
+target="_blank">
+💬
+</a>
+
+</body>
+</html>
